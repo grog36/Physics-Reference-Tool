@@ -1,0 +1,20 @@
+/* Gregory Ecklund */
+/* October 2022 */
+
+body {
+    background-color:beige;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+.constants > table > tbody > tr > td {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 2px;
+    margin: 0px;
+    text-align: center;
+    background-color: burlywood;
+}
