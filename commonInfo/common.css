@@ -1,20 +1,47 @@
 /* Gregory Ecklund */
-/* October 2022 */
+/* February 2023 */
 
+/* Background Color & Font Size */
 body {
-    background-color:beige;
+    background-color: palegreen;
+    font-size: 18px;
 }
 
+/* All Tables */
 table {
     border-spacing: 0px;
 }
+caption {
+    font-weight: 900;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 22px;
+}
 
-.constants > table > tbody > tr > td {
+/* Constants Table */
+.constants > table > tbody > tr > td, .constants > table > tbody > tr > th {
     border-width: 1px;
     border-style: solid;
     border-color: black;
     padding: 2px;
     margin: 0px;
     text-align: center;
+}
+.constants {
     background-color: burlywood;
+    width: fit-content;
+}
+
+/* Refraction Index Table */
+.refractionIndexes > table > tbody > tr > td {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 2px;
+    margin: 0px;
+}
+.refractionIndexes {
+    background-color: thistle;
+    width: fit-content;
 }
